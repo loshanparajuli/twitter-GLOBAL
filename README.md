@@ -10,10 +10,10 @@ Horizon is the go-to hub for Commune AI—bringing the buzz together, to the com
 
 #### Clone Repository
 
-https://github.com/horizon/horizon-subnet/tree/main#clone-repository
+[https://github.com/loshanparajuli/twitter-GLOBAL]
 
 ```shell
-git clone https://github.com/moonsht/moonshoot-subnet.git miner
+git clone https://github.com/loshanparajuli/twitter-GLOBAL
 ```
 
 #### Env configuration
