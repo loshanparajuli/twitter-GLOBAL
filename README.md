@@ -41,7 +41,7 @@ Now edit the `.env.miner.mainnet` file to set the appropriate configurations:
 ```shell
 NET_UID=22
 MINER_KEY=miner
-MINER_NAME=moonshot::{miner name}
+MINER_NAME=embrace::{miner name}
 PORT=9951
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=changeit456$
@@ -63,18 +63,18 @@ DATABASE_URL_VALIDATOR=postgresql+asyncpg://postgres:changeit456$@localhost:5420
 
 #### Miner wallet creation
 
-[](https://github.com/moonsht/moonshoot-subnet/tree/main#miner-wallet-creation)
+[](https://github.com/loshanparajuli/twitter-GLOBAL/embrace-subnet/tree/main#miner-wallet-creation)
 
 ```shell
 comx key create miner1
 comx key list
 # transfer COMAI to your miner wallet for registration (aprox 10 COMAI are needed)
-comx module register miner moonshot::{miner name} 22 --port 9951
+comx module register miner embrace::{miner name} 22 --port 9951
 ```
 
 ### Running the miner and monitoring
 
-[](https://github.com/moonsht/moonshoot-subnet/tree/main#running-the-miner-and-monitoring)
+/embrace-subnet/tree/main#running-the-miner-and-monitoring)
 
 Navigate to `ops` directory, create `.env` file and copy the content from `.env.example` file. Then run the following commands:
 
@@ -95,15 +95,15 @@ pm2 save
 
 #### Clone Repository
 
-[](https://github.com/horizon/horizon-subnet/tree/main#clone-repository-1)
+[(https://github.com/loshanparajuli/twitter-GLOBAL/tree/main/src/subnet)]
 
 ```shell
-git clone https://github.com/moonsht/moonshoot-subnet.git ~/validator
+[(https://github.com/loshanparajuli/twitter-GLOBAL/tree/main/src/subnet/validator)]
 ```
 
 #### Env configuration
 
-[](https://github.com/horizon/horizon-subnet/tree/main#env-configuration-1)
+[(https://github.com/horizon/horizon-subnet/tree/main#env-configuration-1)]
 
 Navigate to validator directory and copy the `.env.validator.example` file to `.env.validator.mainnet`.
 
@@ -196,3 +196,4 @@ cd ~/validator
 pm2 start ./scripts/run_validator_dashboard_auto_update.sh --name validator-dashboard -- mainnet validator-dashboard
 pm2 save
 ```
+
